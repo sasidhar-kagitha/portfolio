@@ -4,14 +4,14 @@ var t1 = gsap.timeline();
 
 t1.from(".logo",{
     y:-30,
-    duration:1.3,
+    duration:0.8,
     opacity:0,
     delay:0.5
 })
 
 t1.from("li",{
     y:-30,
-    duration:1.3,
+    duration:0.8,
     opacity:0,
     stagger:0.2
     
@@ -20,13 +20,13 @@ t1.from("li",{
 t1.from("span",{
     y:30,
     opacity:0,
-    duration:1.5,
+    duration:1,
     scale:3
 })
 
 t1.from(".img",{
     x:-100,
-    duration:1.4,
+    duration:1,
     opacity:0,
     scale:30,
     
@@ -43,7 +43,7 @@ t1.from(".des",{
 
     y:20,
     opacity:0,
-    duration:1.2,
+    duration:1,
     scale:0
 })
 
@@ -52,7 +52,7 @@ t1.from(".des",{
 gsap.from("#skills .skill-heading",{
     y:20,
     opacity:0,
-    duration:1.2,
+    duration:1,
     scale:1.2,
     scrollTrigger:"#skills"
 })
@@ -60,7 +60,7 @@ gsap.from("#skills .skill-heading",{
 gsap.from("#skills .skill-card",{
     x:-20,
     opacity:0,
-    duration:1,
+    duration:0.8,
     delay:2,
     scale:2,
     stagger:1,
