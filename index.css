@@ -1,0 +1,330 @@
+.bg-container
+{
+    background-color:black;
+    color:aliceblue;
+    font-family: sans-serif serif ;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    
+    color:aliceblue;
+    font-family: sans-serif serif ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    
+}
+.logo
+{
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:40px;
+}
+li{
+    cursor: pointer;
+    font-size: 18px;
+}
+#home
+{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-container
+{
+    position: fixed;
+    width:100%;
+    background-color: black;
+    z-index: 1;
+}
+.description
+{
+    width:400px;
+    text-align: right;
+    font-size: 25px;
+}
+.des
+{
+    width:400px;
+    text-align: right;
+    font-size: 25px;
+}
+.des:hover
+{
+    width:400px;
+    transition: 2ms;
+    animation-duration: 2s;
+
+}
+span
+{
+    font-size: 32px;
+    color:skyblue;
+}
+.card
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:60px;
+}
+.img-container
+{
+ width:200px;
+ box-shadow: 4px 3px 4px 6px rgb(61, 61, 243);
+ border-radius: 20%;
+}
+.img{
+    width:100%;
+    border-radius: 20%;
+}
+
+span:hover{
+    font-size: 40px;
+    transition: 2ms;
+    animation-duration: 2s;
+    text-decoration: underline;
+}
+
+li:hover 
+{
+    color:rgb(87, 90, 236);
+    
+    font-size:22px;
+}
+.img-container:hover{
+   width:300px;
+   border-radius:100%;
+   cursor: pointer;
+ 
+}
+.img:hover{
+        width:300px;
+        border-radius: 100%;
+        cursor: pointer;
+        
+     }
+
+    a{
+        text-decoration: none;
+        color:aliceblue;
+    }
+    a:hover
+    {
+        color:rgb(40, 40, 225);
+    }
+
+    #skills{
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:10%;
+        gap:40px;
+    }
+    
+    .skill-heading
+    {
+        font-size: 50px;
+    }
+
+    .skill-card-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: space-around;
+    }
+    .skill-card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    box-shadow: 2px 3px 2px 3px #1a1919;
+    margin: 13px 15px;
+    background-color:black;
+    border-radius: 20px;
+   
+    }
+
+    .skill-card:hover
+    {
+        width:220px;
+        height:320px;
+        box-shadow: 2px 3px 2px 3px blue;
+    }
+
+    .skill-card-img
+    {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+
+    .skill-card-heading
+    {font-family: Roboto;
+        padding: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: bold;
+      
+    }
+    .skill-card-description
+    {
+        font-family: Roboto;
+        padding: 2px;
+        color: #eaf1f7;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    @media (max-width:500px)
+    {
+        .card{
+            flex-direction: column;
+        }
+        .card1{
+            order:1;
+        }
+        .img-container{
+            order:-1;
+        }
+        .bg-container
+{
+    background-color:black;
+    color:aliceblue;
+    font-family: sans-serif serif ;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    
+    color:aliceblue;
+    font-family: sans-serif serif ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    
+}
+.logo
+{
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:40px;
+    display: none;
+}
+li{
+    cursor: pointer;
+    font-size: 18px;
+}
+#home
+{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-container
+{
+    position: fixed;
+    width:100%;
+}
+.description
+{
+    width:400px;
+    text-align: center;
+    font-size: 25px;
+}
+.des
+{
+    width:400px;
+    text-align: center;
+    font-size: 25px;
+}
+.des:hover
+{
+    width:400px;
+    transition: 2ms;
+    animation-duration: 2s;
+
+}
+span
+{
+    font-size: 32px;
+    color:skyblue;
+}
+
+.img-container
+{
+ width:200px;
+ box-shadow: 4px 3px 4px 6px rgb(61, 61, 243);
+ border-radius: 20%;
+}
+.img{
+    width:100%;
+    border-radius: 20%;
+}
+
+span:hover{
+    font-size: 40px;
+    transition: 2ms;
+    animation-duration: 2s;
+    text-decoration: underline;
+}
+
+li:hover 
+{
+    color:rgb(87, 90, 236);
+    
+    font-size:22px;
+}
+.img-container:hover{
+   width:300px;
+   border-radius:100%;
+   cursor: pointer;
+ 
+}
+.img:hover{
+        width:300px;
+        border-radius: 100%;
+        cursor: pointer;
+        
+     }
+
+    a{
+        text-decoration: none;
+        color:aliceblue;
+    }
+    a:hover
+    {
+        color:rgb(40, 40, 225);
+    }
+
+    #skills{
+        height:100vh;
+    }
+    }
