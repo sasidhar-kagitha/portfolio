@@ -126,7 +126,7 @@ li:hover
     }
 
     #skills{
-        height:100vh;
+       min-height: fit-content;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -193,6 +193,63 @@ li:hover
         text-align: center;
     }
 
+    #contactMe
+    {
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+    }
+    .circle-container
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+    .circle
+    {
+        height: 16px;
+        width:16px;
+        margin:10px;
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+    .contact-mainheading
+    {
+        font-size: 50px;
+    }
+    .contact-des
+    {
+        font-size: 24px;
+        text-align: center;
+        color:rgb(22, 39, 230);
+    }
+    .width
+    {
+        font-size:30px;
+        margin:10px;
+    }
+     i:hover
+     {
+        cursor: pointer;
+        font-size: 40px;
+        border-radius: 40%;
+        box-shadow: 2px 3px 2px 2px rgb(3, 240, 66);
+     }
+    .gmail
+    {
+        font-size: 24px;
+        color:rgb(182, 31, 247);
+    }
+    .github
+    {
+        font-size: 20px;
+        text-rendering: geometricPrecision;
+        color:orangered;
+    }
     @media (max-width:500px)
     {
         .card{
