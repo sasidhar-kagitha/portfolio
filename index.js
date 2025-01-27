@@ -115,5 +115,3 @@ gsap.from("#contactMe i",{
     stagger:1
 })
 
-
-
