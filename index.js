@@ -28,7 +28,7 @@ t1.from(".img",{
     x:-100,
     duration:1,
     opacity:0,
-    scale:30,
+    scale:0,
     
     
 })
@@ -65,6 +65,54 @@ gsap.from("#skills .skill-card",{
     scale:2,
     stagger:1,
     scrollTrigger:"#skills"
+})
+
+gsap.from("#contactMe .contact-mainheading",{
+    opacity:0,
+    x:-20,
+    duration:1.3,
+    delay:1,
+    scrollTrigger:"#contactMe"
+})
+gsap.from("#contactMe .circle-container div",{
+    opacity:0,
+    y:40,
+    duration:1.2,
+    delay:2.2,
+    scrollTrigger:"#contactMe",
+    stagger:1
+})
+gsap.from("#contactMe .contact-des",{
+    opacity:0,
+    y:-40,
+    duration:1.2,
+    delay:5.2,
+    scrollTrigger:"#contactMe",
+    stagger:1
+})
+gsap.from("#contactMe .gmail",{
+    opacity:0,
+    x:40,
+    duration:1.2,
+    delay:6.2,
+    scrollTrigger:"#contactMe",
+    stagger:1
+})
+gsap.from("#contactMe .github",{
+    opacity:0,
+    x:-40,
+    duration:1.2,
+    delay:6.2,
+    scrollTrigger:"#contactMe",
+    stagger:1
+})
+gsap.from("#contactMe i",{
+    opacity:0,
+    x:-40,
+    duration:1.2,
+    delay:7.4,
+    scrollTrigger:"#contactMe",
+    stagger:1
 })
 
 
