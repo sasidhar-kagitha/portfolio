@@ -106,6 +106,24 @@ gsap.from("#contactMe .github",{
     scrollTrigger:"#contactMe",
     stagger:1
 })
+gsap.from("#projects h1",{
+    opacity:0,
+    x:-20,
+    y:-40,
+    duration:1.3,
+    delay:1,
+    scrollTrigger:"#projects"
+})
+gsap.from("#projects .projects-card-container",{
+    opacity:0,
+    x:-20,
+    y:-40,
+    scale:0,
+    duration:3.3,
+    delay:1,
+    scrollTrigger:"#projects",
+    stagger:1
+})
 gsap.from("#contactMe i",{
     opacity:0,
     x:-40,
@@ -114,4 +132,6 @@ gsap.from("#contactMe i",{
     scrollTrigger:"#contactMe",
     stagger:1
 })
+
+
 
