@@ -114,7 +114,7 @@ gsap.from("#projects h1",{
     delay:1,
     scrollTrigger:"#projects"
 })
-gsap.from("#projects .projects-card-container",{
+gsap.from("#projects .projects-card",{
     opacity:0,
     x:-20,
     y:-40,
