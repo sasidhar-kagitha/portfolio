@@ -274,6 +274,9 @@ li:hover
     .projects-card-container
     {
         min-height:500px;
+        display:flex;
+        flex-direction:column;
+        gap:30px;
     }
 
     .projects-card
